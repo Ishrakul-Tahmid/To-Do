@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'ToDo_Task.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://mamar_bank_61ld_user:8dkypVXckpa0DPo3lrgKTdGkdtqpcSpa@dpg-d0ojo5re5dus73cudfc0-a.oregon-postgres.render.com/mamar_bank_61ld',
+        default='postgresql://management_4jz2_user:4MHelIxoxnBcMHb83OUFdAc4bit8DpXc@dpg-d1enqere5dus739uvhcg-a.oregon-postgres.render.com/management_4jz2',
         conn_max_age=600
     )
 }
